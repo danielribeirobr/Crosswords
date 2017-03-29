@@ -1,0 +1,29 @@
+body {
+	font-family: 'Lucida Grande', arial, sans-serif;
+	font-size: 15px;
+	background: #eee;	
+}
+
+div.clear {
+	clear: both;
+}
+
+div.cell {
+	width: 30px;	
+	height: 30px;
+	margin: 1px;
+	border: 1px solid;
+	float: left;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+div.selected {
+	background-color: #FF8C00;
+}
+
+div.solved {
+	background-color: #7FFF00;
+}
